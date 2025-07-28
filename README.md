@@ -82,13 +82,23 @@ items:
 You can create as many YAML files as you like. Each will appear as a separate exercise in the menu.
 
 ## Analytics
-- Best time per exercise
-- Best speed (WPM)
-- Lowest error count
-- Streaks (consecutive days practiced)
-- Session history (last 5 sessions)
-- Session dates
-- Improvements over time
+The software tracks and displays:
+- **Best time** per exercise (in seconds)
+- **Best speed** (WPM - Words Per Minute)
+- **Lowest error count** per exercise
+- **Streak** (consecutive days practiced)
+- **Last session date** and time
+- **Last 5 sessions** with detailed breakdown:
+  - Date and time
+  - Time taken (seconds)
+  - Error count
+  - Speed (WPM)
 
-## Contributing
-Feel free to submit issues or pull requests for new features, bug fixes, or new exercise sets!
+## Context
+This was originally created to practice with the Lynxware keyboard-mouse hardware. Since the workshop no longer services devices and the store shut down, I overhauled the program's identity to test any keypress — whatever unusual hardware you're using.
+
+ I hate the institute of the mouse with a burning passion. I use a wide range of strange hardware to have alternatives for a mouse in some scenarios. In such cases, sometimes you have to adjust to a custom layout. The tool was created to manage the practice and provide analytics of my performance and improvement.
+
+You're encouraged to use it, modify it, and distribute it as you see fit. If you'd like to contribute question sets or support further development, your involvement is welcome.
+
+Stephen
