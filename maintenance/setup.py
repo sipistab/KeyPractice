@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='keypractice',
-    version='0.1.1',
+    version='0.1.2',
     description='A slim, cross-platform terminal-based typing trainer with YAML-based exercises and analytics.',
     author='Your Name',
     packages=find_packages(),
@@ -16,7 +16,7 @@ setup(
     },
     include_package_data=True,
     package_data={
-        '': ['../exercises/*.yaml'],
+        'keypractice': ['data/*.json'],
     },
     python_requires='>=3.7',
 ) 
