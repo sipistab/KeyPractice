@@ -12,16 +12,20 @@ KeyPractice is a slim, cross-platform terminal-based typing trainer. It allows y
 
 ## Installation
 
+### From PyPI (Recommended)
+```sh
+pip install keypractice
+```
+
+### From Source
 1. Ensure you have Python 3.7+ installed.
 2. Install dependencies:
    ```sh
    pip install -r maintenance/requirements.txt
    ```
-3. (Optional) Install as a module:
+3. Install as a module:
    ```sh
    pip install -e .
-   # or
-   pipx install .
    ```
 
 ## Usage
@@ -29,9 +33,9 @@ KeyPractice is a slim, cross-platform terminal-based typing trainer. It allows y
 1. Place your YAML exercise files in the `exercises/` folder.
 2. Run KeyPractice:
    ```sh
-   python -m keypractice
-   # or, if installed:
    keypractice
+   # or from source:
+   python -m keypractice
    ```
 3. Select an exercise and start practicing!
 4. To view analytics for an exercise, choose the analytics option in the menu.
