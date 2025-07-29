@@ -30,20 +30,20 @@
         "time_taken": 4.8,
         "errors": 15,
         "speed": 80.0
+      },
+      {
+        "date": "2025-07-29T17:51:01.710424",
+        "time_taken": 2.64,
+        "errors": 14,
+        "speed": 145.45
       }
     ],
-    "best_time": 4.31,
-    "best_speed": 89.1,
+    "best_time": 2.64,
+    "best_speed": 145.45,
     "lowest_errors": 0,
-    "streak": 1,
-    "last_session_date": "2025-07-28T19:40:48.253436",
+    "streak": 2,
+    "last_session_date": "2025-07-29T17:51:01.710424",
     "improvements": [
-      {
-        "date": "2025-07-23T11:49:38.611441",
-        "time_taken": 8.55,
-        "errors": 0,
-        "speed": 11.23
-      },
       {
         "date": "2025-07-23T11:49:54.299364",
         "time_taken": 6.22,
@@ -67,6 +67,12 @@
         "time_taken": 4.8,
         "errors": 15,
         "speed": 80.0
+      },
+      {
+        "date": "2025-07-29T17:51:01.710424",
+        "time_taken": 2.64,
+        "errors": 14,
+        "speed": 145.45
       }
     ]
   },
