@@ -9,10 +9,18 @@ def get_project_root():
     return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def main():
-    exercises_dir = os.path.join(get_project_root(), 'exercises')
+    # First try to find exercises in the package data
+    package_dir = os.path.dirname(os.path.abspath(__file__))
+    exercises_dir = os.path.join(package_dir, 'exercises')
+    
+    # If not found in package, try project root
+    if not os.path.exists(exercises_dir):
+        exercises_dir = os.path.join(get_project_root(), 'exercises')
+    
     if not os.path.exists(exercises_dir):
         print(f'No exercises directory found at {exercises_dir}. Creating one...')
         os.makedirs(exercises_dir)
+    
     yaml_files = glob.glob(os.path.join(exercises_dir, '*.yaml'))
     if not yaml_files:
         print('No exercise YAML files found. Please add some to the exercises/ directory.')
@@ -43,7 +51,7 @@ def main():
             except ValueError:
                 print('Invalid input.')
                 continue
-            ex = exercises[ex_idx]
+            ex = exercises[idx]
             stats = get_exercise_stats(ex.get('name', os.path.basename(ex['__file__'])))
             if not stats:
                 print('No analytics found for this exercise.')

@@ -30,15 +30,14 @@ pip install keypractice
 
 ## Usage
 
-1. Place your YAML exercise files in the `exercises/` folder.
-2. Run KeyPractice:
+1. Run KeyPractice:
    ```sh
-   keypractice
-   # or from source:
    python -m keypractice
    ```
-3. Select an exercise and start practicing!
-4. To view analytics for an exercise, choose the analytics option in the menu.
+   *Note: On Windows, you may need to use `python -m keypractice` instead of just `keypractice`*
+
+2. Select an exercise and start practicing!
+3. To view analytics for an exercise, choose the analytics option in the menu.
 
 ## Project Structure
 
