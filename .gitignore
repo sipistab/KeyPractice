@@ -37,4 +37,7 @@ ENV/
 Thumbs.db
 
 # Development files
-maintenance/ 
+maintenance/
+
+# Personal data
+keypractice_local/data/analytics.json 
